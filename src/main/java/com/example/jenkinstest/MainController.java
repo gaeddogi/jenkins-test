@@ -11,4 +11,9 @@ public class MainController {
     public String main() {
         return "Hello Jenkins";
     }
+
+    @RequestMapping("/polling-test")
+    public String polling() {
+        return "polling test이다";
+    }
 }

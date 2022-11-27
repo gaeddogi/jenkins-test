@@ -10,6 +10,12 @@ group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
+bootWar {
+    archiveBaseName = 'jenkins-test'
+    archiveFileName = 'jenkins-test.war'
+    archiveVersion = '0.0.1'
+}
+
 repositories {
     mavenCentral()
 }

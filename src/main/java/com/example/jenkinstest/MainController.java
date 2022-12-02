@@ -9,7 +9,7 @@ public class MainController {
 
     @RequestMapping("")
     public String main() {
-        return "Hello Jenkins, today is.. 졸려";
+        return "Hello Jenkins, today is.. 졸려!";
     }
 
     @RequestMapping("/polling-test")
